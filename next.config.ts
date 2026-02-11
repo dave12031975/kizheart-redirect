@@ -238,12 +238,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/dave-tabea',
-        destination: 'https://daveandtabea.de',
+        destination: 'https://daveandtabea.de/blog',
         permanent: true,
       },
       {
         source: '/dave-tabea/',
-        destination: 'https://daveandtabea.de',
+        destination: 'https://daveandtabea.de/blog',
         permanent: true,
       },
       {
