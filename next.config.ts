@@ -224,7 +224,7 @@ const nextConfig: NextConfig = {
       },
 
       // ============================================
-      // Homepage-Varianten
+      // Alte Startseiten → Homepage
       // ============================================
       {
         source: '/home',
@@ -233,6 +233,41 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/index',
+        destination: 'https://daveandtabea.de',
+        permanent: true,
+      },
+      {
+        source: '/dave-tabea',
+        destination: 'https://daveandtabea.de',
+        permanent: true,
+      },
+      {
+        source: '/dave-tabea/',
+        destination: 'https://daveandtabea.de',
+        permanent: true,
+      },
+      {
+        source: '/dave-and-tabea',
+        destination: 'https://daveandtabea.de',
+        permanent: true,
+      },
+      {
+        source: '/dave-und-tabea',
+        destination: 'https://daveandtabea.de',
+        permanent: true,
+      },
+      {
+        source: '/daveandtabea',
+        destination: 'https://daveandtabea.de',
+        permanent: true,
+      },
+      {
+        source: '/start',
+        destination: 'https://daveandtabea.de',
+        permanent: true,
+      },
+      {
+        source: '/urbankiz',
         destination: 'https://daveandtabea.de',
         permanent: true,
       },
