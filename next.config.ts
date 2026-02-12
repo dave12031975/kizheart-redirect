@@ -275,10 +275,11 @@ const nextConfig: NextConfig = {
       // ============================================
       // CATCH-ALL - Muss am Ende stehen!
       // Leitet alle anderen URLs zur neuen Domain
+      // WICHTIG: /:path+ (nicht *) damit Homepage NICHT redirected wird
       // ============================================
       {
-        source: '/:path*',
-        destination: 'https://daveandtabea.de/:path*',
+        source: '/:path+',
+        destination: 'https://daveandtabea.de/:path+',
         permanent: true,
       },
     ];
