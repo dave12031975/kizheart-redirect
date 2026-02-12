@@ -273,6 +273,64 @@ const nextConfig: NextConfig = {
       },
 
       // ============================================
+      // Alte Workshop/Event-Ankuendigungen
+      // ============================================
+      {
+        source: '/workshops-in-stuttgart-beim-kizinvasion-festival-am-7-und-8-6-19',
+        destination: 'https://daveandtabea.de/blog',
+        permanent: true,
+      },
+      {
+        source: '/workshops-in-stuttgart-beim-kizinvasion-festival-am-7-und-8-6-19/',
+        destination: 'https://daveandtabea.de/blog',
+        permanent: true,
+      },
+      {
+        source: '/workshops-in-paris-beim-eiffel-tower-kizomba-festival-vom-14-bis-17-8-20',
+        destination: 'https://daveandtabea.de/blog',
+        permanent: true,
+      },
+      {
+        source: '/workshops-in-paris-beim-eiffel-tower-kizomba-festival-vom-14-bis-17-8-20/',
+        destination: 'https://daveandtabea.de/blog',
+        permanent: true,
+      },
+
+      // ============================================
+      // Alte Seiten / Spezial-URLs
+      // ============================================
+      {
+        source: '/bouncen',
+        destination: 'https://daveandtabea.de/blog',
+        permanent: true,
+      },
+      {
+        source: '/bouncen/',
+        destination: 'https://daveandtabea.de/blog',
+        permanent: true,
+      },
+      {
+        source: '/davedinapoli',
+        destination: 'https://daveandtabea.de',
+        permanent: true,
+      },
+      {
+        source: '/davedinapoli/',
+        destination: 'https://daveandtabea.de',
+        permanent: true,
+      },
+      {
+        source: '/datenschutzerklaerung',
+        destination: 'https://daveandtabea.de/datenschutz',
+        permanent: true,
+      },
+      {
+        source: '/datenschutzerklaerung/',
+        destination: 'https://daveandtabea.de/datenschutz',
+        permanent: true,
+      },
+
+      // ============================================
       // CATCH-ALL - Muss am Ende stehen!
       // Leitet alle anderen URLs zur neuen Domain
       // WICHTIG: /:path+ (nicht *) damit Homepage NICHT redirected wird
